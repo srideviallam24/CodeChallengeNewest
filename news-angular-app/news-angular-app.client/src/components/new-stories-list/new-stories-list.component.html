@@ -1,0 +1,25 @@
+<app-loader [isLoading]="isLoading"></app-loader>
+<div *ngIf="!isLoading">
+  <span>
+    <input type="text" [(ngModel)]="searchText" placeholder="Search stories" /><input type="button" value="Search" (click)="onSearch()" />
+  </span>
+
+  <table border="1" cellpadding="10" style="vertical-align:ce">
+    <thead>
+      <tr>
+        <th>Newest Stories</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let story of filteredStories | paginate: {  itemsPerPage: pageSize, currentPage: page, totalItems:totalNoOfRecs }">
+
+        <td *ngIf="story!=null">
+          <a *ngIf="story.url" [href]="story.url" target="_blank">{{ story.title }}</a>
+          <span *ngIf="!story.url">{{ story.title }}</span>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+  <pagination-controls (pageChange)="page = $event"></pagination-controls>
+ </div>
+  

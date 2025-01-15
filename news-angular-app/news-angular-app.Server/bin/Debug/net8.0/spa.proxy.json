@@ -1,0 +1,10 @@
+{
+"SpaProxyServer": {
+"ServerUrl": "https://localhost:63194",
+"RedirectUrl": "",
+"LaunchCommand": "npm start",
+"WorkingDirectory": "C:\\Users\\getra\\API\\API\\news-angular-app\\news-angular-app.Server\\..\\news-angular-app.client",
+"MaxTimeoutInSeconds": "120",
+"KeepRunning": "false"
+}
+}

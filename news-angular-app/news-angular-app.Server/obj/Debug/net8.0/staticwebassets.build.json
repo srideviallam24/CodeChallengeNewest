@@ -1,0 +1,24 @@
+{
+  "Version": 1,
+  "Hash": "B/r1xHGGl6fW37ioxdXte3kKRatVt/sJ9Gupup8BoPU=",
+  "Source": "news-angular-app.Server",
+  "BasePath": "_content/news-angular-app.Server",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [
+    {
+      "Identity": "C:\\Users\\getra\\API\\API\\news-angular-app\\news-angular-app.client\\news-angular-app.client.esproj",
+      "Version": 2,
+      "Source": "news-angular-app.client",
+      "GetPublishAssetsTargets": "GetCurrentProjectPublishStaticWebAssetItems",
+      "AdditionalPublishProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework",
+      "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
+      "AdditionalBuildProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework"
+    }
+  ],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

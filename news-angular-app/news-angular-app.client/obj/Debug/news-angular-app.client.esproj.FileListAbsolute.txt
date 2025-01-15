@@ -1,0 +1,1 @@
+C:\Users\getra\API\API\news-angular-app\news-angular-app.client\obj\Debug\news-angular-app.client.esproj.CoreCompileInputs.cache

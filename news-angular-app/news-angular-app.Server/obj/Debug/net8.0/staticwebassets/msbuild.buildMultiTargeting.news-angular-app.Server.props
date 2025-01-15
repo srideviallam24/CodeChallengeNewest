@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\news-angular-app.Server.props" />
+</Project>
